@@ -7,7 +7,6 @@ alfabet = "abcdefghijklmnopqrstuvwxyzåäö"
 val = input("vill du inkryptera(1) eller vill du bruteforcea ett ord(2)")
 
 
-
 if val == "1":
 
     m = input("vad vill du inkyptera?")
@@ -34,7 +33,6 @@ elif val == "2":
 
     krypterat = input("vad vill du brutforcea?")
 
-    
     for nyckel in range(0, len(alfabet)):
         dekrypterat = ""
         for b in krypterat:
@@ -42,4 +40,4 @@ elif val == "2":
         print(dekrypterat)
         
         if dekrypterat in ordlista:
-            print(nyckel)
+            print("nyckeln är", nyckel)

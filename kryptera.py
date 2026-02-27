@@ -23,6 +23,7 @@ for bokstav in m:
         
     else:
         ny_bokstav = alfabet[ny_plats]
+        
         print(ny_bokstav)      
 
     
